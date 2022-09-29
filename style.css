@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+    grid-template-rows: 20vw 20vw 40vw 20vw;
+}
+
+div:nth-of-type(1){
+    background-color: green;
+    grid-column: 1/2  ;
+    grid-row: 1/2;
+}
+div:nth-of-type(2){
+    background-color: rgb(187, 172, 36);
+    grid-column: 2/3  ;
+    grid-row: 1/2;
+}
+div:nth-of-type(3){
+    background-color: rgb(36, 159, 187);
+    grid-column: 3/5  ;
+    grid-row: 1/2;
+}
+div:nth-of-type(4){
+    background-color: rgb(152, 36, 187);
+    grid-column: 5/6 ;
+    grid-row: 1/5;
+}
+div:nth-of-type(5){
+    background-color: rgb(36, 187, 71);
+    grid-column: 6/8 ;
+    grid-row: 1/3;
+}
+div:nth-of-type(6){
+    background-color: rgb(187, 36, 36);
+    grid-column: 1/4 ;
+    grid-row: 2/3;
+}
+div:nth-of-type(7){
+    background-color: rgb(243, 137, 137);
+    grid-column: 4/5 ;
+    grid-row: 2/3;
+}
+div:nth-of-type(8){
+    background-color: rgb(228, 69, 120);
+    grid-column: 1/3 ;
+    grid-row: 3/4;
+}
+div:nth-of-type(9){
+    background-color: rgb(146, 228, 69);
+    grid-column: 3/5 ;
+    grid-row: 3/4;
+}
+div:nth-of-type(10){
+    background-color: rgb(125, 125, 125);
+    grid-column: 6/7 ;
+    grid-row: 3/5;
+}
+div:nth-of-type(11){
+    background-color: rgb(176, 24, 24);
+    grid-column: 7/8 ;
+    grid-row: 3/5;
+}
+div:nth-of-type(12){
+    background-color: rgb(176, 140, 24);
+    grid-column: 1/5 ;
+    grid-row: 4/5;
+}
+
+.flex{
+    height: 100vh;
+    width: 100vw;
+    background-color:  blue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche{
+    background-color: blueviolet;
+    width: 56.8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hight1{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+}
+.mid1{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+}
+.mid2{
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+}
+.bottom{
+    background-color: aquamarine;
+    height: 25%;
+}
+.h{
+    height: 100%;
+
+}
+
+
+
+
+.droite{
+    display: flex;
+    flex-direction: column;
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.centre{
+    background-color: cadetblue;
+    width: 14.2%;
+    height: 100%;
+}
+.droite{
+    background-color: rgb(173, 87, 169);
+    width: 28.4%;
+    height: 100%;
+}

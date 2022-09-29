@@ -1,0 +1,110 @@
+.flex{
+    height: 100vh;
+    width: 100vw;
+    background-color:  blue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche{
+    background-color: blueviolet;
+    width: 56.8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hight1{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+
+}
+.a{
+    width: 25%;
+    background-color: darkblue;
+}
+.b{
+    width: 25%;
+    background-color: darkgreen;
+}
+.c{
+    width: 50%;
+    background-color: darkkhaki;
+}
+.mid1{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+.d{
+    width: 75%;
+    background-color: darkviolet;
+}
+.e{
+    width: 25%;background-color: darkorange;
+}
+.mid2{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+.f{
+    width: 50%;
+    background-color: darkgoldenrod;
+}
+.g{
+    width: 50%;
+    background-color: fuchsia;
+}
+.bottom{
+    background-color: aquamarine;
+    height: 20%;
+}
+.h{
+    height: 100%;
+    background-color: firebrick;
+}
+
+
+
+
+.droite{
+    display: flex;
+    flex-direction: column;
+}
+.bot{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+
+
+.centre{
+    background-color: cadetblue;
+    width: 14.2%;
+    height: 100%;
+}
+.droite{
+    background-color: rgb(173, 87, 169);
+    width: 28.4%;
+    height: 100%;
+}
+.i{
+    height: 40%;
+    background-color: hotpink;
+}
+.j{
+    height: 100%;
+    width: 50%;
+    background-color: maroon;
+}
+.k{
+    height: 100%;
+    width: 50%;
+    background-color: darkolivegreen;
+}
+
+
+
